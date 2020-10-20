@@ -26,6 +26,10 @@ Script para configuração inicial de um CentOS 8 instalado a partir da versão 
 
 Instala e configura o serviço Dropbox *headless* em um CentOS 8.
 
+#### c8_inst_samba.sh
+
+Instala e configura o serviço Samba em um CentOS 8.
+
 ## Licença de uso
 Todo o conteúdo deste repositório pode ser usado, modificado e redistribuído para fins não comerciais.
 
