@@ -8,6 +8,10 @@ Repositório de pequenos scripts linux/bash criados por [Renato Monteiro Batista
 
 Identifica o endereço IPv6 do computador.
 
+#### modelo_backup_mysql.sh
+
+Modelo de um script de backup do MySQL com cópia do arquivo .SQL para um servidor FTP utilizando o LFTP.
+
 ### CentOS 6
 
 #### centos-install_jira_servicedesk.sh
