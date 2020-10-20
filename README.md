@@ -18,6 +18,12 @@ Modelo de um script de backup do MySQL com cópia do arquivo .SQL para um servid
 
 Realiza a limpeza periódica das pastas de JunkMail de um domínio em servidor cPanel.
 
+### SlackWare
+
+#### slackware-habilita_mysql.sh
+
+Habilita o servidor MySQL em um SlackWare Linux.
+
 ### CentOS 6
 
 #### centos6-network_dhcp.sh
