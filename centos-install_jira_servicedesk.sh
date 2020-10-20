@@ -1,4 +1,11 @@
 #!/bin/bash
+# (C) 2020 RMB Informatica - www.rmbinformatica.com
+# Engenheiro responsavel: RENATO MONTEIRO BATISTA
+#
+# Este script prepara uma instalação do Jira Service Desk em um Centos6 Minimal.
+#
+# Para maiores informações acesse https://github.com/rmbinformatica/bash-scripts
+#
 wget "https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.25-1.el7.x86_64.rpm-bundle.tar"
 wget "https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-5.1.47.zip"
 wget "https://product-downloads.atlassian.com/software/jira/downloads/atlassian-servicedesk-4.0.0-x64.bin"
