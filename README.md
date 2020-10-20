@@ -4,6 +4,8 @@ Repositório de pequenos scripts linux/bash criados por [Renato Monteiro Batista
 
 ## Conteúdo do repositório
 
+### Sem versão específica do sistema operacional
+
 #### identifica-ipv6.sh
 
 Identifica o endereço IPv6 do computador.
@@ -12,7 +14,9 @@ Identifica o endereço IPv6 do computador.
 
 Modelo de um script de backup do MySQL com cópia do arquivo .SQL para um servidor FTP utilizando o LFTP.
 
-### CentOS 6
+#### limpa_junkmail_cpanel.sh
+
+Realiza a limpeza periódica das pastas de JunkMail de um domínio em servidor cPanel.
 
 #### centos-install_jira_servicedesk.sh
 
