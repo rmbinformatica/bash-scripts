@@ -18,6 +18,12 @@ Modelo de um script de backup do MySQL com cópia do arquivo .SQL para um servid
 
 Realiza a limpeza periódica das pastas de JunkMail de um domínio em servidor cPanel.
 
+### CentOS 6
+
+#### centos6-network_dhcp.sh
+
+Configura a interface de rede do CentOS 6 para o modo DHCP.
+
 #### centos-install_jira_servicedesk.sh
 
 *Protótipo* de um instalador do [Jira ServiceDesk](https://www.atlassian.com/br/software/jira/service-desk) para o CentOS linux. 
