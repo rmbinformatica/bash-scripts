@@ -4,6 +4,10 @@ Repositório de pequenos scripts linux/bash criados por [Renato Monteiro Batista
 
 ## Conteúdo do repositório
 
+#### identifica-ipv6.sh
+
+Identifica o endereço IPv6 do computador.
+
 ### CentOS 6
 
 #### centos-install_jira_servicedesk.sh
