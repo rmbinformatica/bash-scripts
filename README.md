@@ -26,6 +26,10 @@ Habilita o servidor MySQL em um SlackWare Linux.
 
 ### CentOS 6
 
+#### centos6-lamp.sh
+
+Instala os servidores http (apache), banco de dados (mysql) e linguagem PHP em um CentOS 6.
+
 #### centos6-network_dhcp.sh
 
 Configura a interface de rede do CentOS 6 para o modo DHCP.
