@@ -18,6 +18,12 @@ Modelo de um script de backup do MySQL com cópia do arquivo .SQL para um servid
 
 Realiza a limpeza periódica das pastas de JunkMail de um domínio em servidor cPanel.
 
+### Citrix Xen Server
+
+#### xen_autostart-vm.sh
+
+Configura todas as VM de um Servidor XenServer para inicialização automática ao ligar o computador físico.
+
 ### SlackWare
 
 #### slackware-habilita_mysql.sh
