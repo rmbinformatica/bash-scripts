@@ -9,7 +9,7 @@
 #
 dnf -y install samba samba-common samba-client
 cp /etc/samba/smb.conf /etc/samba/old.smb.conf
-wget https://raw.githubusercontent.com/rmbinformatica/bash-scripts/main/config-exemplo/smb.conf -O /etc/samba/smb.conf
+wget https://raw.githubusercontent.com/rmbinformatica/bash-scripts/main/config-exemplo/modelo_pasta_publica_e_usuarios-smb.conf -O /etc/samba/smb.conf
 nano /etc/samba/smb.conf
 testparm
 firewall-cmd --add-service=samba --zone=public --permanent
@@ -18,3 +18,8 @@ systemctl enable smb
 systemctl enable nmb
 systemctl start smb
 systemctl start nmb
+echo "Adicao de usuarios ao samba:"
+echo "useradd renato"
+echo "passwd renato"
+echo "smbpasswd -a renato"
+echo "systemctl reload smb"
