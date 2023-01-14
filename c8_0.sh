@@ -9,8 +9,12 @@
 # Para maiores informações acesse https://github.com/rmbinformatica/bash-scripts
 #
 sed -i -e 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+sed -i -e 's/mirrorlist.centos.org/vault.centos.org/g' /etc/yum.repos.d/*
+sed -i -e 's/mirror.centos.org/vault.centos.org/g' /etc/yum.repos.d/*
 dnf -y install nano wget git screen epel-release unzip net-tools curl curl-devel
 curl https://raw.githubusercontent.com/rmbinformatica/rmbkey/master/rmbkey.sh > rmbkey.sh
 chmod +x rmbkey.sh
 ./rmbkey.sh
 reboot
+
+
