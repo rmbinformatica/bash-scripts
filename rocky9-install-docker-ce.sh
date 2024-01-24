@@ -1,4 +1,4 @@
-#!/bin/basho 
+#!/bin/bash
 echo "Removendo podman e instalando o Docker CE"
 sudo dnf remove -y podman buildah
 sudo dnf install -y yum-utils
