@@ -3,7 +3,7 @@ echo "Removendo podman e instalando o Docker CE"
 sudo dnf remove -y podman buildah
 sudo dnf install -y yum-utils
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-sudo dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo dnf -y install docker-ce docker-ce-cli containerd.io
 
 echo "Configurando o servico docker"
 sudo systemctl enable docker
